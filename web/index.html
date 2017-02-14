@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Jesse's Bitcoin Information</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/btc.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="panel">
+                <h1 id="price-now"></h1>
+                <h2 class="subpanel">Current BTC price in USD</h2>
+            </div>
+            <div class="panel">
+                <h1 id="tx-count"></h1>
+                <h2 class="subpanel"># Of Unconfirmed Txs</h2>
+            </div>
+            <div id="tih" class="panel">
+                <h1 id="change-tih-text">Today In History (1Ƀ)</h1>
+                
+            </div>
+        </div>
+        <div id="container">
+            <div id="personal" class="panel-right">
+                <h1 id="our-stash"></h1>
+                <h2 id="our-address" class="subpanel"></h2>
+                <h2 id="our-value" class="subpanel"></h2>
+            </div>
+            <div id="change" class="panel-right">
+                <h1 id="change-pctchg-text">Percent Change (Price)</h1>
+                <h2 id="1-hr" class="subpanel"></h2>
+                <h2 id="24-hr" class="subpanel"></h2>
+                <h2 id="1-week" class="subpanel"></h2>
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="js/api.js"></script>
+    </body>
+</html>

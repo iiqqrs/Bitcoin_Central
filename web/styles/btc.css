@@ -1,0 +1,76 @@
+/*
+Do not duplicate.
+*/
+/* 
+    Created on : Feb 10, 2017, 3:50:33 PM
+    Author     : Jesse
+*/
+.panel {
+    margin-bottom: 20px;
+    border: 3px dashed cyan;
+    border-radius: 4px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+}
+#our-address{
+    font-size: 15px;
+    color: #51a351;
+    padding: 4px;
+}
+#personal{
+    top: 10px;
+    right: 10px;
+}
+#change{
+    top: 250px;
+    right: 10px;
+}
+#change-pctchg-text{
+   font-size: 30px;
+}
+#change-tih-text{
+   font-size: 30px;
+}
+.panel-right{
+    position:absolute;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 3px dashed cyan;
+    border-radius: 4px;
+
+}
+.subpanel {
+    border-radius: 4px;
+    background-color: black;
+    color: #ff9b00;
+    text-align: center;
+    border: 1px dashed red;
+}
+div {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+h1{
+    font-size: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    border: 1px dashed red;
+    border-radius: 4px;
+    background-color: black;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    background: url("../styles/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #fdc605;
+}
